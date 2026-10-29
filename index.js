@@ -12,6 +12,7 @@ app.get("/", (req, res) => {
   res.send(`
     <h1>${NOMBRE_APP}</h1>
     <p>Corriendo en Azure App Service</p>
+    <p>Despliegue automático con GitHub Actions funcionando</p>
   `);
 });
 
