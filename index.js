@@ -6,7 +6,7 @@ const NOMBRE_APP =
   process.env.NOMBRE_APP || "App sin configurar";
 
 const CADENA_CONEXION =
-  process.env.SQLCONNSTR_MiBaseDeDatos || "No configurada";
+  process.env.SQLAZURECONNSTR_MiBaseDeDatos || "No configurada";
 
 app.get("/", (req, res) => {
   res.send(`
